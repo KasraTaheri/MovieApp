@@ -3,7 +3,8 @@ import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:movie_app/models/movieList.dart';
 
-final apiKey = "efc825ecbe32ad5877502691296ebafc";
+//Sätt in api-nyckel
+final apiKey = "test";
 
 abstract class BaseMovies {
   Future<MovieList> upcomingMovies();
